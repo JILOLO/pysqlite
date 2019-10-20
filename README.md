@@ -15,4 +15,5 @@ These instruction will give you an overview of how to manipulate .db file with P
 * python-dateutil==2.8.0
 * six==1.12.0
 * SQLite Browser from https://sqlitebrowser.org/
+<br/> 
 Plus a test section
