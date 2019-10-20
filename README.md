@@ -1,6 +1,4 @@
-# Project Title
-
-SQLite - Python Tools
+# SQLite - Python Tools
 
 ## Getting Started
 
