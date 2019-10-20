@@ -1,7 +1,7 @@
 # SQLite - Python Tools
 
 ## Getting Started
-These instruction will give you an overview of how to manipulate .db file with Python. 
+These instruction will give you an overview of how to manipulate .db file and populate data with Python. 
 
 ### Prerequisites
 * antiorm==1.2.1
