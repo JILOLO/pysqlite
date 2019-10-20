@@ -17,3 +17,5 @@ create_table()
 data_entry()
 
 conn.close()
+
+# install SQLite3 browser, you'll see the content with it
