@@ -14,6 +14,13 @@ These instruction will give you an overview of how to manipulate .db file with P
 * pyparsing==2.4.2
 * python-dateutil==2.8.0
 * six==1.12.0
-* SQLite Browser from https://sqlitebrowser.org/<br/> 
+* SQLite Browser from https://sqlitebrowser.org/
+
+### Functions
+* create db
+* static & dynamic data entry
+* read db
+* graph
+* delete & update<br/> 
 
 Plus a test section
