@@ -14,7 +14,7 @@ c = conn.cursor()
 
 #install SQLite3 browser, you'll see the content with it
 def create_table():
-    c.execute("CREATE TABLE IF NOT EXISTS myTable(unix REAL,datestamp TEST,keyword TEXT,value REAL)")
+    c.execute("CREATE TABLE IF NOT EXISTS myTable(unix REAL,datestamp TEXT,keyword TEXT,value REAL)")
 
 def data_entry():
     c.execute("INSERT INTO myTable VALUES(881101,'2019-10-19','python',6)")
@@ -26,7 +26,7 @@ def dynamic_data_entry():
     keyword = 'Python'
     value = random.randrange(0,10)
     c.execute("INSERT INTO myTable(unix,datestamp,keyword,value) VALUES(?,?,?,?)", (unix, date, keyword, value))
-    conn.commit
+    conn.commit()
 
 def read_from_db():
     c.execute('SELECT * FROM myTable')
